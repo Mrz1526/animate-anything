@@ -84,6 +84,7 @@ Please download the [pretrained model](https://cloudbook-public-production.oss-c
 ```bash
 python train.py --config output/latent/{download_model}/config.yaml --eval validation_data.prompt_image=example/barbie2.jpg validation_data.prompt='A cartoon girl is talking.'
 ```
+![downloadfile-3](https://github.com/alibaba/animate-anything/assets/169361370/4416a65d-ebe5-46b1-84ba-c8ce9d1548eb)
 
 To control the motion area, we can use the labelme to generate a binary mask. First, we use labelme to draw the polygon for the reference image.
 
